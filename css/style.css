@@ -13,6 +13,19 @@ h6 {
   margin:0;
   font-family: "Roboto", sans-serif;
 }
+.projcolor {
+  background-color: cornsilk;
+}
+
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+  text-decoration-color: red;
+font-size: 16px;
+width: 30vw;
+}
 
 .clear-fix {
   overflow: auto;
@@ -40,7 +53,8 @@ h2 {
 }
 
 h3 {
-  font-style: italic;
+  font-style: bold;
+
   font-size: 20px;
   color: #000;
   line-height: 22px;
@@ -129,7 +143,7 @@ a {
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color: rebeccapurple;
 }
 
 .flex-box {
@@ -144,8 +158,9 @@ a {
 .flex-column {
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   padding: 10px;
+  list-style-type: square;
 }
 
 .center-content {
